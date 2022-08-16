@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.main-section {
+    background-color:  hsl(233, 47%, 7%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background-color:  hsl(244, 38%, 16%);
+    height: 446px;
+    width: 63%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+ 
+}
+
+.content h1{
+    color: hsl(0, 0%, 100%);
+    margin: 30px 0px;
+}
+
+.content p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.content-text {
+    padding: 50px;
+    flex-direction: row;
+}
+
+.hilight-text {
+    color :hsl(277, 64%, 61%) ;
+}
+
+.detail-quan {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.detail-quan p{
+    color: hsla(0, 0%, 100%, 0.6)   ;
+}
+
+.detail-quan h2{
+    color :  hsl(0, 0%, 100%);
+}
+
+.img-res{
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .content {
+        background-color:  hsl(244, 38%, 16%);
+        height: auto;
+        width: 83%;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        
+     
+    }
+    .img-res{
+        max-width: 100%;
+        height: auto;
+    }
+
+  }
